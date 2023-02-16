@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	int x,y,power;
+	printf("Enter x value:");
+	scanf("%d",&x);
+	printf("Enter y value:");
+	scanf("%d",&y);
+	power=pow(x,y);
+	printf("%d power %d value =%d",x,y,power);
+}
